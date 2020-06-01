@@ -26,19 +26,19 @@
                                 <v-row>
                                     <v-col cols="12" sm="6" md="4">
                                         <v-text-field
-                                                v-model="editedItem.claveCurso"
+                                                v-model="editedItem.clave"
                                                 label="Clave"
                                         ></v-text-field>
                                     </v-col>
                                     <v-col cols="12" sm="6" md="6">
                                         <v-text-field
-                                                v-model="editedItem.nombreCurso"
+                                                v-model="editedItem.nombre"
                                                 label="Nombre del Curso"
                                         ></v-text-field>
                                     </v-col>
                                     <v-col cols="12" sm="6" md="6">
                                         <v-text-field
-                                                v-model="editedItem.numeroCreditos"
+                                                v-model="editedItem.creditos"
                                                 label="Número de Creditos"
                                         ></v-text-field>
                                     </v-col>
